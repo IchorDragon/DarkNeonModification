@@ -1,0 +1,87 @@
+/*   --== Better Discord ==--   */
+
+.bd-error-modal { /*BD Error Box*/
+  border: 1px solid var(--main-color);
+}
+.bd-error-modal > * {
+  background-color: black !important;
+}
+.bd-tab-item { /*Error Category*/
+  border: 1px solid var(--main-color);
+  background-color: black !important;
+}
+.bd-addon-error-header { /*Error List*/
+  background-color: black !important;
+  border: 1px solid var(--main-color);
+  border-radius: 8px;
+}
+.bd-button { /*Okay button*/
+  background-color: black !important;
+  border: 1px solid var(--main-color);
+}
+.bd-button:hover {
+  background-color: var(--main-color) !important;
+  color: black !important;
+}
+.contents-3NembX { /*Button (recolored)*/
+  background-color: rgba(0, 0, 0, 0%) !important;
+  color: var(--main-color);
+}
+.bd-button:hover > .contents-3NembX { /*Okay text*/
+  color: black !important;
+}
+.expanded > .bd-addon-error-header {
+  border-radius: 8px 8px 0 0;
+}
+.bd-addon-error-body {
+  background-color: black !important;
+  border-left: 1px solid var(--main-color);
+  border-right: 1px solid var(--main-color);
+  border-bottom: 1px solid var(--main-color);
+  border-radius: 0 0 8px 8px;
+}
+.bd-notice, .bd-notice:first-child { /*notice box*/
+  background-color: black !important;
+  border-bottom: 1px solid var(--main-color);
+  border-radius: 0;
+}
+.bd-notice > * { /*notice text*/
+  color: var(--main-color);
+}
+#outdated-plugins > span { /*plugin name*/
+  color: var(--main-color) !important;
+}
+.bd-notice-button { /*Update Button*/
+  border-color: var(--main-color);
+}
+.bd-notice-button:hover {
+  background-color: var(--half-opacity-color) !important;
+  color: var(--main-color) !important;
+}
+.separator-3C440w { /*error list, header separator*/
+  box-shadow: 0 1px 0 0 var(--main-color) !important;
+}
+.footerSeparator-3U8YsT { /*error list, footer separator*/
+  box-shadow: inset 0 1px 0 var(--main-color) !important;
+}
+.bd-notice:first-child { /*first error container border-radius*/
+  border-radius: 0px !important;
+}
+.colorInfo-1kEg3T { /*type 1 error box color*/
+  background-color: black !important;
+  color: var(--main-color) !important;
+}
+.button-1iHNQ2 { /*type 1 error box button*/
+  border-color: var(--main-color) !important;
+  color: var(--main-color) !important;
+}
+.noticeWrapper-8z511t .button-1iHNQ2:hover { /*type 1 error box button hovering*/;
+  background-color: var(--half-opacity-color);
+  color: var(--main-color);
+}
+.closeIcon-3eoP1e path { /*type 1 error box close button*/
+  fill: var(--main-color) !important;
+}
+.noticeWrapper-8z511t { /*type 1 error box*/
+  border-bottom: 1px solid var(--main-color) !important;
+}
